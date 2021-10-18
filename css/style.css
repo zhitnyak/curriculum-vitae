@@ -103,7 +103,7 @@ body {
   color: #a5a9b0;
 }
 .proffession {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 23px;
@@ -114,7 +114,9 @@ body {
   line-height: 89px;
 }
 .discription {
-  font-size: 14px;
+    color: #646464;
+
+  font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   margin-top: 24px;
@@ -162,6 +164,10 @@ body {
 .proffession-company {
   color: #e7640d;
 }
+.proffession-company-name{
+    color: #e7640d;
+
+}
 .proffession-time {
   color: #a8a8a8;
   font-size: 14px;
@@ -181,6 +187,19 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
+  margin-left: 20px;
+  }
+  h4{
+      color: #595959;
+  font-size: 14px;
+    font-weight: 600;
+  }
+  .box-proffession{
+    display: flex;
+
+  }
+  .wrapper-proffession{
+    margin-right: 90px;
   }
 .education-place {
   color: #e7640d;
@@ -191,6 +210,11 @@ body {
   line-height: 24px;
   margin-top: 10px;
   margin-bottom: 15px;
+}
+.education-trainings{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
 }
 .education-time {
   color: #a8a8a8;
